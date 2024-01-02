@@ -48,7 +48,6 @@ function checkAnswer(event) {
   if (selectedAnswer === currentQuestion.correctAnswer) {
     feedbackElement.textContent = "Correct!";
   } else {
-    // Incorrect answer
     feedbackElement.textContent = "Incorrect!";
     timeLeft -= 10;
   }
